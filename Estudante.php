@@ -7,4 +7,9 @@ class Estudante {
     public function disciplinasMatriculadas(){
         return 'PHP Orientado a Objetos';
     }
+
+    public function atualizaIra($nota){
+        $this->ira += $nota;
+        return $this->ira;
+    }
 }
